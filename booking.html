@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<!-- Mirrored from wp.hostlin.com/zagreb/booking.html by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 21 Dec 2018 06:58:26 GMT -->
+<head>
+<meta charset="utf-8">
+<title>King Of Kings</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/nouislider.css" rel="stylesheet">
+<link href="css/nouislider.pips.css" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery-ui.css">
+<link href="css/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script src="booking.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+</script>   
+</head>
+
+<body>
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+    <!-- Main Header-->
+    <header class="main-header header-style-two">
+    	<!-- Header Top -->
+    	<div class="header-top">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                    
+                    <!--Top Right-->
+                    <div class="top-left">
+                    	<!--social-icon-->
+                        <div class="social-icon">
+                        	<a href="#"><span class="fa fa-facebook"></span></a>
+                            <a href="#"><span class="fa fa-twitter"></span></a>
+                            <a href="#"><span class="fa fa-google-plus"></span></a>
+                            <a href="#"><span class="fa fa-pinterest-p"></span></a>
+                            <a href="#"><span class="fa fa-rss"></span></a>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--Top Left-->
+                    <div class="top-right">
+                    	<ul class="clearfix">
+                        	<li><span class="icon flaticon-technology-1"></span>+091 234 5678</li>
+                            <li><span class="icon flaticon-envelope-3"></span>info@carhire.com</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <!-- Header Top End -->
+        
+        <!-- Main Box -->
+    	<div class="main-box">
+        	<div class="auto-container">
+            	<div class="outer-container clearfix">
+                    <!--Logo Box-->
+                    <div class="logo-box">
+                        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt=""></a></div>
+                    </div>
+                    
+                    <!--Nav Outer-->
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->    	
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            
+                            <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                            <li class=""><a href="home.html">Home</a>
+                                               
+                                            </li>
+                                            <li ><a href="about.html">About Us</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li class="dropdown"><a href="#">Packages</a>
+                                                <ul>
+                                                   
+                                                        <li><a href="wedding.html">Wedding Packages</a></li>
+                                                        <li><a href="day.html">Days Packages</a></li>
+                                                        <li><a href="booking.html">Own Packages</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a  href="contact.html">Contact</a></li>
+                        
+                                            <li class="current"><a  href="booking.html">Booking</a></li>
+                                            
+                                         </ul>
+                            </div>
+                        </nav><!-- Main Menu End-->
+                        
+                    </div>
+                    <!--Nav Outer End-->
+                    
+                    <!-- Hidden Nav Toggler -->
+                    <div class="nav-toggler">
+                    <button class="hidden-bar-opener"><span class="icon fa fa-bars"></span></button>
+                    </div><!-- / Hidden Nav Toggler -->
+                    
+            	</div>    
+            </div>
+        </div>
+    
+    </header>
+    <!--End Main Header -->
+    
+    <!-- Hidden Navigation Bar -->
+    <section class="hidden-bar right-align">
+        
+        <div class="hidden-bar-closer">
+            <button class="btn"><i class="fa fa-close"></i></button>
+        </div>
+        
+        <!-- Hidden Bar Wrapper -->
+        <div class="hidden-bar-wrapper">
+        
+            <!-- .logo -->
+            <div class="logo text-center">
+                <a href="index-2.html"><img src="images/logo-2.png" alt=""></a>			
+            </div><!-- /.logo -->
+            
+            <!-- .Side-menu -->
+            <div class="side-menu">
+            <!-- .navigation -->
+            <ul class="navigation clearfix">
+                    <li ><a href="home.html">Home</a>
+                 
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                   <li class="dropdown"><a href="#">Packages</a>
+                        <ul>
+                           
+                                <li><a href="wedding.html">Wedding Packages</a></li>
+                                <li><a href="day.html">Days Packages</a></li>
+                                <li><a href="select.html">Own Packages</a></li>
+                        </ul>
+                    </li>
+                 
+                    <li><a href="contact.html">Contact</a></li>
+                 
+                    <li class="current" ><a href="booking.html">Booking</a></li>
+                  
+                    
+                 </ul>
+            </div><!-- /.Side-menu -->
+        
+            <div class="social-icons">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        
+        </div><!-- / Hidden Bar Wrapper -->
+    </section>
+    <!-- / Hidden Bar -->
+    
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/3.jpg);">
+        <div class="auto-container">
+            <h1>Booking</h1>
+            <div class="bread-crumb-outer">
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index-2.html">Home</a></li>
+                    <li class="active">Booking</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+    
+    
+    <!--Billing Section-->
+    <section class="billing-section">
+    	<div class="auto-container">
+        	<div class="sec-title"><h2>Billing Details</h2></div>
+        	<!--Billing Form-->
+            <div class="billing-form">
+            	<form method="post" action="">
+                	<!--Column-->
+                    <div class="row clearfix">
+                    	
+                        <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                        	<div class="field-label">First Name <span class="req">*</span></div>
+                            <div class="field-inner"><input type="text" id="fname" name="field-name" value="" placeholder="Your First Name"></div>
+                        </div>
+                        
+                        <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                        	<div class="field-label">Last Name <span class="req">*</span></div>
+                            <div class="field-inner"><input type="text" id="lname" name="field-name" value="" placeholder="Your Last Name"></div>
+                        </div>
+                        
+                        <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                        	<div class="field-label">Email Address <span class="req">*</span></div>
+                            <div class="field-inner"><input type="text" id="email" name="field-name" value="" placeholder="Your Email Address"></div>
+                        </div>
+                        
+                        <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                        	<div class="field-label">Phone <span class="req">*</span></div>
+                            <div class="field-inner"><input type="text" id="phone" name="field-name" value="" placeholder="Your Phone"></div>
+                        </div>
+                        <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                <div class="field-label">Packages</div>
+                                <select name="passengers" id="Package">
+                                    <option>Select</option>
+                                    <option value="one">One Day Package</option>
+                                    <option value="two">Two Days Package</option>
+                                    <option value="three">Three Days Package</option>
+                                    <option value="five">Five Days Package</option>
+                                    <option value="own">Own Package</option>                       
+                                  
+                       
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                <div id="q2">
+
+                                        <div class="field-label" >Select Package</div>
+                                        <select name="pack" id="one">
+                                            <option>Select</option>
+                                        </select>
+                                
+                                </div>
+                                     <div class="form-group col-md-12 col-sm-12 col-xs-12 " id="q1">
+                                            <div class="field-label">Enter No.Of.Days <span class="req">*</span></div>
+                                            <div class="field-inner"><input type="text" id="days" name="field-name" value="" placeholder="No of days"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                        <div class="field-label">Vehicle Type</div>
+                                        <select name="passengers" id="vehicle">
+                                            <option>Select</option>
+                                            <option>Coach</option>
+                                            <option>Tempo traveller</option>
+                                            <option>Toyota Innova</option>
+                                            <option>Etios car</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                            <div class="field-label">AC/NON-AC</div>
+                                            <select name="passengers" id="ac">
+                                                <option>Select</option>
+                                                <option>AC</option>
+                                                <option>Non-Ac</option>
+                                               
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 ">
+                                            <div class="field-label">No.Of.Perons <span class="req">*</span></div>
+                                            <div class="field-inner"><input type="text" id="person" name="field-name" value="" placeholder="No of persons"></div>
+                                       </div>
+                                       <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">Address<span class="req">*</span></div>
+                                            <div class="field-inner"><input type="text" id="address" name="field-name" value="" placeholder="address"></div>
+                                        </div>  
+                                       <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                            <div class="field-label">Package Details</div>
+                                            <div class="field-inner"><textarea name="message" id="comments" placeholder="Write your requirements"></textarea></div>
+                                        </div>  
+                                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                                <div class="btn-outer">
+                                                    <button id="add" type="button" class="theme-btn btn-style-three">Submit</button></div>
+                                                    
+                                        </div>     
+                        
+                    </div>
+                </form>
+            </div>
+            
+    <!--Car Details-->
+    <div class="single-car car-details">
+            <div class="auto-container">
+                <!--Basic Details-->
+                <div class="basic-details">
+                    <div class="row clearfix">
+                        <!--Carousel Column-->
+                        <div class="carousel-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <!--Product Carousel-->
+                            <div class="carousel-column col-md-12 col-sm-12 col-xs-12 inner-box">
+                                    <h2>Memorable memories</h2>
+                                    <div class="single-item-carousel">
+                                    
+                                        <!--Car Item-->
+                                        <div class="car-item">
+                                            <figure class="image">
+                                                <img src="images/resource/silde1.jpeg" alt="" />
+                                            </figure>
+                                        </div>
+                                        
+                                       <!--Car Item-->
+                                        <div class="car-item">
+                                            <figure class="image">
+                                                <img src="images/resource/silde5.jpeg" alt="" />
+                                            </figure>
+                                        </div>
+                                        
+                                        <!--Car Item-->
+                                        <div class="car-item">
+                                            <figure class="image">
+                                                <img src="images/resource/silde2.jpeg" alt="" />
+                                            </figure>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        <!--Info Column-->
+                        <div class="info-column col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="info-outer">
+                                <div class="upper-info">
+                                    <div class="sidebar-title"><h3>Account Details:</h3></div>
+                                    <p>Pay instantly from anywhere in India by depositing Your Cheque / Cash in our account at your nearest Karur vysya branch or Tranfer funds through Net Banking.
+                                        </p>
+                                    <ul class="list">
+                                        <li><a href="#" class="clearfix"><span class="col">Name :</span> <span class="col">kannan.p</span></a></li>
+                                        <li><a href="#" class="clearfix"><span class="col">Number:</span> <span class="col">1748155000007073</span></a></li>
+                                        <li><a href="#" class="clearfix"><span class="col">Branch:</span> <span class="col">Saravanampatti</span></a></li>
+                                        <li><a href="#" class="clearfix"><span class="col">IFSC:	</span> <span class="col">KVBL0001748</span></a></li>
+                                        <li><a href="#" class="clearfix"><span class="col">City name:</span> <span class="col">Coimbatore</span></a></li>
+                                      </ul>
+                                      
+                                     <br>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div><!--End Basic Details-->
+                
+                
+                
+            </div>
+        </div>
+        
+   
+            
+        </div>
+    </section>
+    
+    <!--Main Footer-->
+    <footer class="main-footer">
+    	
+        
+         <!--Footer Bottom-->
+         <div class="footer-bottom">
+         	<div class="auto-container">
+            	<div class="row clearfix">
+                	<div class="col-md-6 col-sm-6 col-xs-12">
+                    	<ul class="footer-nav">
+                                <li><a href="home.html"><img src="images/resource/footer-logo.png" alt="" /></a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="about.html">About-Us</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                    	<div class="copyright">Copyright &copy;  All Rights Reserved. King Of Kings</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/revolution.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/nouislider.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+<!-- Mirrored from wp.hostlin.com/zagreb/booking.html by HTTrack Website Copier/3.x [XR&CO'2008], Fri, 21 Dec 2018 06:58:27 GMT -->
+</html>
