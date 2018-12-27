@@ -4,17 +4,17 @@ $(document).ready(function() {
     
 //    /$("[data-toggle=tooltip]").tooltip();
 $("#view").hide();
-
 var config = {
-  apiKey: "AIzaSyCyQVe99-yI397SrfLC7CPPyzRSXZvK77g",
-  authDomain: "kgisl-9c6c9.firebaseapp.com",
-  databaseURL: "https://kgisl-9c6c9.firebaseio.com",
-  projectId: "kgisl-9c6c9",
-  storageBucket: "kgisl-9c6c9.appspot.com",
-  messagingSenderId: "342730020406"
-};
-firebase.initializeApp(config);
-// Reference messages collection
+    apiKey: "AIzaSyBMX_UCiEZsCpW6IUHbBN8T8OMkhvaVqZQ",
+    authDomain: "kingofkings-f2aa6.firebaseapp.com",
+    databaseURL: "https://kingofkings-f2aa6.firebaseio.com",
+    projectId: "kingofkings-f2aa6",
+    storageBucket: "kingofkings-f2aa6.appspot.com",
+    messagingSenderId: "535924855738"
+  };
+  firebase.initializeApp(config);
+
+  // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
 
 
@@ -29,6 +29,8 @@ var ref = firebase.database().ref();
 var row = '<tr>' +  '<td>'+ childSnapshot.val().fname+'</td>'
 					 +'<td>' +  childSnapshot.val().lname+ '</td>'                    
                      + '<td>'+  childSnapshot.val().email+ '</td>'
+                     + '<td>'+  childSnapshot.val().date + '</td>'
+                  
                       + '<td>'+  childSnapshot.val().phone + '</td>'
                      + '<td>' +  childSnapshot.val().Package+ '</td>' 
                      + '<td>' +  childSnapshot.val().spackage+ '</td>'
